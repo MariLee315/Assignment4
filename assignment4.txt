@@ -1,0 +1,15 @@
+Mariposa Lee 
+1. In order to put strings together, C uses function strcat(_,_). The first variable would be representing the first string, while the second variable represents the second string. For example, if the first string was "ice" and second was "cream", concatenating the two strings will result in "ice cream". 
+
+2.The size will be automatically set to 0. 
+
+3. If the type is int, and the array name is multi, some possible declarations:
+int multi [8] [8];
+int multi [32] [2];
+int multi [16] [4];
+Basically the two should multiply to be the size, which in this case, is 64.
+
+4a. strcmp() compares strings. If the strings are the same, it returns 0. If string 1 comes before string 2 ordered alphabetically, it returns negative, but if string 2 comes before string 1 ordered alphabeticlaly, it returns positive. 
+b. fgets() reads and returns strings from streams and flowing data. 
+c. strcat() puts two strings together. It returns a pointer for the array destination.
+d. strlen() finds out the length of a string and returns it. 
